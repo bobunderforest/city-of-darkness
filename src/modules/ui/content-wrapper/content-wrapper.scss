@@ -1,5 +1,8 @@
 .content-wrapper {
-  margin-bottom: 200px;
+
+  &:not(.no-margin) {
+    margin-bottom: 200px;
+  }
 
   &__inner {
     padding: 0 40px;

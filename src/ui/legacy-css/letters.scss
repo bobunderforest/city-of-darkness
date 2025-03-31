@@ -312,7 +312,7 @@
  */
 
 .kwc-letter-c {
-  color: #fff;
+  color: #000;
 }
 
 .kwc-letter-c-bg {
@@ -321,6 +321,7 @@
   top: 0;
   left: 0;
   height: 100%;
+  background-color: #000;
 }
 
 .kwc-letter-c-bg:after,
@@ -328,7 +329,7 @@
   content: '';
   display: block;
   position: absolute;
-  background-color: #000;
+  background-color: #fff;
 }
 
 .kwc-letter-c-bg:before {

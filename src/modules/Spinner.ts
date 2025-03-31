@@ -1,5 +1,5 @@
 import { fonts } from 'modules/utils/fontObserver'
-import { introLoading } from './Intro'
+import { introLoading } from './ui/section-intro/Intro'
 import { unlockScroll } from 'modules/utils/scroll'
 import { WatchedValue } from 'modules/utils/WatchedValue'
 

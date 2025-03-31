@@ -11,7 +11,7 @@ import { onResize, sizeState, resizeCanvases } from 'modules/utils/resize'
 const smokemachine = require('modules/vendor/smoke')
 const noise = (window as any).noise
 
-const introImageBg = require('../assets/img/photo/intro-background.jpg')
+const introImageBg = require('assets/img/photo/intro-background.jpg')
 
 let onLoad: () => void
 export const introLoading = new Promise<void>((resolve) => {
@@ -51,7 +51,7 @@ export class Intro {
 
   state: State = {
     bgH: 1000,
-    bgW: 1491,
+    bgW: 1524,
     debugMode: false,
     mouse: vec(0, 0),
     textDrawings: initialState,

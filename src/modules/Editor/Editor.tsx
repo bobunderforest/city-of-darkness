@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { vec } from 'modules/utils/Vector'
-import { Intro } from 'modules/Intro'
+import { Intro } from 'modules/ui/section-intro/Intro'
 import { EditorWindow } from 'modules/Editor/EditorWindow'
 import { EditorButton } from 'modules/Editor/EditorButton'
 

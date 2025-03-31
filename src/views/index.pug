@@ -6,9 +6,13 @@ html(lang="en")
   body
     include /src/ui/components/spinner/spinner.pug
 
-    include /src/ui/sections/intro/section-intro.pug
+    #app
+
+    //- include /src/ui/sections/intro/section-intro.pug
     include /src/ui/sections/grid-intro/section-grid-intro.pug
     include /src/ui/sections/general/section-general.pug
-    include /src/ui/sections/architecture/section-architecture.pug
+    include /src/modules/ui/section-architecture/section-architecture.pug
+    include /src/ui/sections/city-life/section-city-life.pug
+    include /src/ui/sections/stories/section-stories.pug
 
     include /src/ui/document/scripts.pug
