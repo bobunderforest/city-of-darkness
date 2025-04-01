@@ -44,6 +44,8 @@ export const SectionCityLife = () => {
           penetrate their ranks and pretend to be one of them.
         </ContentTextBlock>
 
+        <ContentImage src="/img/photo/police.jpg" coeff={0.6} />
+
         <ContentTitle>People</ContentTitle>
         <ContentTextBlock>
           Despite the abundance of representatives of various "lower classes",
@@ -58,8 +60,6 @@ export const SectionCityLife = () => {
       <Stories />
 
       <ContentWrapper>
-        <ContentImage src="/img/photo/police.jpg" coeff={0.6} />
-
         <ContentTitle>Medicine</ContentTitle>
         <ContentTextBlock>
           Doctors worked in extremely unsanitary conditions. Their prices were
