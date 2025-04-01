@@ -1,0 +1,107 @@
+:root {
+  --viewport-height: 0px;
+}
+
+/**
+ * ==============================================
+ * Colors
+ * ==============================================
+ */
+:root {
+  --color-background: #000;
+  --color-background-hover: #4f505733;
+
+  --color-text: #fff;
+  --color-grey-60: #e4e6f399;
+  --color-grey-40: #e4e6f366;
+  --color-grey-20: #e4e6f333;
+
+  --color-border-40: #f1f3ff33;
+}
+@theme {
+  --color-*: initial;
+
+  --color-background: #000;
+  --color-background-hover: #4f505733;
+
+  --color-text: #fff;
+  --color-grey-60: #e4e6f399;
+  --color-grey-40: #e4e6f366;
+  --color-grey-20: #e4e6f333;
+
+  --color-border-40: #f1f3ff33;
+}
+
+/**
+ * ==============================================
+ * Fonts
+ * ==============================================
+ */
+:root {
+  --font-face-regular: 'KanitSans';
+
+  --font-title-1: 54px;
+  --font-title-2: 32px;
+  --font-title-3: 22px;
+  --font-regular: 18px;
+  --font-control: 15px;
+
+  @media (max-width: 1600px) {
+    --font-title-1: 48px;
+    --font-title-2: 28px;
+    --font-title-3: 18px;
+    --font-regular: 16px;
+    --font-control: 12px;
+  }
+}
+@theme {
+  --font-face-regular: 'KanitSans';
+
+  --text-*: initial;
+  --text-title-1: var(--font-title-1);
+  --text-title-2: var(--font-title-2);
+  --text-title-3: var(--font-title-3);
+  --text-regular: var(--font-regular);
+  --text-control: var(--font-control);
+
+  --leading-*: initial;
+  --leading-title-1: var(--font-title-1);
+  --leading-title-2: var(--font-title-2);
+  --leading-title-3: var(--font-title-3);
+  --leading-regular: var(--font-regular);
+  --leading-control: var(--font-control);
+}
+
+/**
+ * ==============================================
+ * Spacings
+ * ==============================================
+ */
+:root {
+  --content-width: 1600px;
+  --content-padding: 60px;
+
+  @media (max-width: 1600px) {
+    --content-width: 1200px;
+    --content-padding: 40px;
+  }
+}
+
+/**
+ * ==============================================
+ * Breakpoints
+ * ==============================================
+ */
+:root {
+  --breakpoint-desktop: 1600px;
+  --breakpoint-desktop-small: 1232px;
+  --breakpoint-mobile: 680px;
+  --breakpoint-mobile-small: 460px;
+}
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-desktop: 1600px;
+  --breakpoint-desktop-small: 1232px;
+  --breakpoint-mobile: 680px;
+  --breakpoint-mobile-small: 460px;
+}

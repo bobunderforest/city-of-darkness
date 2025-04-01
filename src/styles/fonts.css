@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'TypefaceCustom';
+  src: url('/fonts/Chineese\ Sans.ttf');
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: 'KanitSans';
+  src: url('/fonts/Kanit/Kanit-Regular.ttf');
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: 'KanitSans';
+  src: url('/fonts/Kanit/Kanit-Medium.ttf');
+}
+
+@font-face {
+  font-weight: 800;
+  font-family: 'KanitSans';
+  src: url('/fonts/Kanit/Kanit-Bold.ttf');
+}
+
+@font-face {
+  font-weight: 900;
+  font-family: 'KanitSans';
+  src: url('/fonts/Kanit/Kanit-Black.ttf');
+}

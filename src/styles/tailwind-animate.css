@@ -1,0 +1,280 @@
+:root {
+  --ease-in-sine: cubic-bezier(0.47, 0, 0.745, 0.715);
+  --ease-out-sine: cubic-bezier(0.39, 0.575, 0.565, 1);
+  --ease-in-out-sine: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+
+  --ease-in-quad: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  --ease-out-quad: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --ease-in-out-quad: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+  --ease-in-cubic: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  --ease-out-cubic: cubic-bezier(0.215, 0.61, 0.355, 1);
+  --ease-in-out-cubic: cubic-bezier(0.645, 0.045, 0.355, 1);
+
+  --ease-in-quart: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  --ease-out-quart: cubic-bezier(0.165, 0.84, 0.44, 1);
+  --ease-in-out-quart: cubic-bezier(0.77, 0, 0.175, 1);
+
+  --ease-in-quint: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+  --ease-out-quint: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out-quint: cubic-bezier(0.86, 0, 0.07, 1);
+
+  --ease-in-expo: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+  --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+  --ease-in-out-expo: cubic-bezier(1, 0, 0, 1);
+
+  --ease-in-circ: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+  --ease-out-circ: cubic-bezier(0.075, 0.82, 0.165, 1);
+  --ease-in-out-circ: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+
+  --ease-in-back: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  --ease-out-back: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  --ease-in-out-back: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+@theme {
+  --ease-in-sine: var(--ease-in-sine);
+  --ease-out-sine: var(--ease-out-sine);
+  --ease-in-out-sine: var(--ease-in-out-sine);
+
+  --ease-in-quad: var(--ease-in-quad);
+  --ease-out-quad: var(--ease-out-quad);
+  --ease-in-out-quad: var(--ease-in-out-quad);
+
+  --ease-in-cubic: var(--ease-in-cubic);
+  --ease-out-cubic: var(--ease-out-cubic);
+  --ease-in-out-cubic: var(--ease-in-out-cubic);
+
+  --ease-in-quart: var(--ease-in-quart);
+  --ease-out-quart: var(--ease-out-quart);
+  --ease-in-out-quart: var(--ease-in-out-quart);
+
+  --ease-in-quint: var(--ease-in-quint);
+  --ease-out-quint: var(--ease-out-quint);
+  --ease-in-out-quint: var(--ease-in-out-quint);
+
+  --ease-in-expo: var(--ease-in-expo);
+  --ease-out-expo: var(--ease-out-expo);
+  --ease-in-out-expo: var(--ease-in-out-expo);
+
+  --ease-in-circ: var(--ease-in-circ);
+  --ease-out-circ: var(--ease-out-circ);
+  --ease-in-out-circ: var(--ease-in-out-circ);
+
+  --ease-in-back: var(--ease-in-back);
+  --ease-out-back: var(--ease-out-back);
+  --ease-in-out-back: var(--ease-in-out-back);
+}
+
+/* Animation Name */
+@utility animation-name-* {
+  /* prettier-ignore */
+  animation-name: --value([*]);
+}
+
+/* Delay */
+@utility animate-delay-none {
+  animation-delay: 0s;
+}
+
+@utility animate-delay-* {
+  /* prettier-ignore */
+  animation-delay: --value(integer)ms;
+  /* prettier-ignore */
+  animation-delay: --value([*]);
+}
+
+/* Duration */
+@utility animate-duration-none {
+  animation-duration: 0s;
+}
+
+@utility animate-duration-* {
+  /* prettier-ignore */
+  animation-duration: --value(integer)ms;
+  /* prettier-ignore */
+  animation-duration: --value([*]);
+}
+
+/* Composition */
+@utility animate-replace {
+  animation-composition: replace;
+}
+
+@utility animate-add {
+  animation-composition: add;
+}
+
+@utility animate-accumulate {
+  animation-composition: accumulate;
+}
+
+/* Direction */
+@utility animate-normal {
+  animation-direction: normal;
+}
+
+@utility animate-reverse {
+  animation-direction: reverse;
+}
+
+@utility animate-alternate {
+  animation-direction: alternate;
+}
+
+@utility animate-alternate-reverse {
+  animation-direction: alternate-reverse;
+}
+
+/* Fill Mode */
+@utility animate-fill-none {
+  animation-fill-mode: normal;
+}
+
+@utility animate-fill-forwards {
+  animation-fill-mode: forwards;
+}
+
+@utility animate-fill-backwards {
+  animation-fill-mode: backwards;
+}
+
+@utility animate-fill-both {
+  animation-fill-mode: both;
+}
+
+/* Iteration Count */
+@utility animate-infinite {
+  animation-iteration-count: infinite;
+}
+
+@utility animate-once {
+  animation-iteration-count: 1;
+}
+
+@utility animate-iteration-* {
+  animation-iteration-count: --value(integer, [integer]);
+}
+
+/* Play State */
+@utility animate-run {
+  animation-play-state: running;
+}
+
+@utility animate-play {
+  animation-play-state: running;
+}
+
+@utility animate-stop {
+  animation-play-state: paused;
+}
+
+@utility animate-pause {
+  animation-play-state: paused;
+}
+
+/* Ease */
+@utility animate-ease {
+  animation-timing-function: ease;
+}
+
+@utility animate-ease-linear {
+  animation-timing-function: linear;
+}
+
+@utility animate-ease-in {
+  animation-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+@utility animate-ease-out {
+  animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+@utility animate-ease-in-out {
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@utility animate-ease-* {
+  /* prettier-ignore */
+  animation-timing-function: --value([*]);
+}
+
+@utility animate-ease-in-sine {
+  animation-timing-function: var(--ease-in-sine);
+}
+@utility animate-ease-out-sine {
+  animation-timing-function: var(--ease-out-sine);
+}
+@utility animate-ease-in-out-sine {
+  animation-timing-function: var(--ease-in-out-sine);
+}
+
+@utility animate-ease-in-quad {
+  animation-timing-function: var(--ease-in-quad);
+}
+@utility animate-ease-out-quad {
+  animation-timing-function: var(--ease-out-quad);
+}
+@utility animate-ease-in-out-quad {
+  animation-timing-function: var(--ease-in-out-quad);
+}
+
+@utility animate-ease-in-cubic {
+  animation-timing-function: var(--ease-in-cubic);
+}
+@utility animate-ease-out-cubic {
+  animation-timing-function: var(--ease-out-cubic);
+}
+@utility animate-ease-in-out-cubic {
+  animation-timing-function: var(--ease-in-out-cubic);
+}
+
+@utility animate-ease-in-quart {
+  animation-timing-function: var(--ease-in-quart);
+}
+@utility animate-ease-out-quart {
+  animation-timing-function: var(--ease-out-quart);
+}
+@utility animate-ease-in-out-quart {
+  animation-timing-function: var(--ease-in-out-quart);
+}
+
+@utility animate-ease-in-quint {
+  animation-timing-function: var(--ease-in-quint);
+}
+@utility animate-ease-out-quint {
+  animation-timing-function: var(--ease-out-quint);
+}
+@utility animate-ease-in-out-quint {
+  animation-timing-function: var(--ease-in-out-quint);
+}
+
+@utility animate-ease-in-expo {
+  animation-timing-function: var(--ease-in-expo);
+}
+@utility animate-ease-out-expo {
+  animation-timing-function: var(--ease-out-expo);
+}
+@utility animate-ease-in-out-expo {
+  animation-timing-function: var(--ease-in-out-expo);
+}
+
+@utility animate-ease-in-circ {
+  animation-timing-function: var(--ease-in-circ);
+}
+@utility animate-ease-out-circ {
+  animation-timing-function: var(--ease-out-circ);
+}
+@utility animate-ease-in-out-circ {
+  animation-timing-function: var(--ease-in-out-circ);
+}
+
+@utility animate-ease-in-back {
+  animation-timing-function: var(--ease-in-back);
+}
+@utility animate-ease-out-back {
+  animation-timing-function: var(--ease-out-back);
+}
+@utility animate-ease-in-out-back {
+  animation-timing-function: var(--ease-in-out-back);
+}

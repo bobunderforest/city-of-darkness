@@ -1,0 +1,67 @@
+@import 'tailwindcss';
+
+@import './fonts.css';
+@import './keyframes.css';
+
+@import './tailwind-theme.css';
+@import './tailwind-animate.css';
+
+body {
+  color: #0d0d0d;
+  font-weight: 500;
+  overflow-x: hidden;
+  font-family: var(--font-face-regular);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  touch-action: manipulation;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+input,
+textarea,
+button,
+select {
+  border: 0;
+  outline: none;
+  font: inherit;
+  appearance: none;
+  -webkit-font-smoothing: inherit;
+}
+
+input,
+textarea,
+button,
+select,
+label,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+img,
+embed,
+iframe,
+object,
+audio,
+video {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+svg,
+img {
+  display: block;
+}

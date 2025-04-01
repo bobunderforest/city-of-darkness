@@ -1,0 +1,14 @@
+---
+import Layout from 'page-layouts/Layout.astro'
+import { SectionIntro } from 'components/sections/SectionIntro/SectionIntro'
+import { SectionGeneral } from 'components/sections/SectionGeneral/SectionGeneral'
+import { SectionArchitecture } from 'components/sections/SectionArchitecture/SectionArchitecture'
+import { SectionCityLife } from 'components/sections/SectionCityLife/SectionCityLife'
+---
+
+<Layout>
+  <SectionIntro client:load />
+  <SectionGeneral client:load />
+  <SectionArchitecture client:load />
+  <SectionCityLife client:load />
+</Layout>
