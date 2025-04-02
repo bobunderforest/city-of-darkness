@@ -18,8 +18,8 @@ export const SectionCredits = () => {
             restored and slightly remastered later in 2025.
           </p>
           <p>
-            Original look on this project is parially availiable on the
-            WaybackMachine:
+            The original look of this project is partially available on the
+            Wayback Machine:
           </p>
           <ul>
             <li>
