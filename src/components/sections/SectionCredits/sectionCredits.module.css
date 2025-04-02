@@ -1,0 +1,32 @@
+.text {
+  a {
+    display: inline-block;
+    padding: 0 10px;
+    color: currentColor;
+    border: 1px solid rgb(from currentColor r g b / 0.2);
+    border-radius: 3px;
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 1px;
+  }
+
+  ul {
+    list-style-type: circle;
+    list-style-position: inside;
+  }
+  ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+  }
+
+  ul,
+  ol,
+  p {
+    margin-bottom: 20px;
+  }
+
+  ul li {
+    margin-bottom: 10px;
+  }
+}

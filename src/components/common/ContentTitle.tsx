@@ -6,7 +6,12 @@ type Props = React.PropsWithChildren & {
 
 export const ContentTitle = ({ children, className }: Props) => {
   return (
-    <div className={cns('mb-[20px] text-[60px] font-extrabold', className)}>
+    <div
+      className={cns(
+        'mb-[20px] text-[60px] font-extrabold uppercase',
+        className,
+      )}
+    >
       {children}
     </div>
   )
