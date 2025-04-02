@@ -18,7 +18,7 @@ export const CityLifeLetterGrid = () => {
         <LetterText className="top-[57.4%] left-[0] w-1/2 origin-top-right skew-y-[20deg]" />
         <LetterText className="top-[57.4%] left-2/4 w-1/2" />
 
-        <div className="absolute top-[47.7%] left-[0] w-full bg-[0_0] bg-[url('/img/grid-people.svg')] bg-cover pt-[80.4%]"></div>
+        <div className="absolute top-[52%] left-[0] w-full bg-[0_0] bg-[url('/img/grid-people.svg')] bg-cover pt-[80.4%]"></div>
       </LetterWrapper>
 
       {/* Grid */}

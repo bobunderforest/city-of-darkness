@@ -20,7 +20,6 @@
     </defs>
     <g id="Process-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="C1">
-            <polygon id="Shape" fill="#1F1B20" points="959.963718 87.4051258 719.975056 0.0561237747 0.00226762726 0.0561237747 0.00340144089 240.047053 719.973355 502.094059 1439.94501 502.094059 1439.94331 262.10313 1199.95465 174.754128 959.963718 174.754128"></polygon>
             <rect id="Rectangle-path" fill="url(#linearGradient-1)" x="479.981859" y="87.4051258" width="479.981292" height="239.990363"></rect>
             <rect id="Rectangle-path" fill="url(#linearGradient-2)" x="719.973355" y="262.10313" width="719.971088" height="239.990363"></rect>
             <polygon id="Shape" fill="url(#linearGradient-3)" points="719.972788 262.10313 0.00340144089 0.0561237747 0.00340144089 240.047053 719.972788 502.094059"></polygon>

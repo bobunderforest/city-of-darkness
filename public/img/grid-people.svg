@@ -8,13 +8,10 @@
         <g id="Artboard">
             <g id="grid2">
                 <path d="M718,0 L718,261.296632" id="Shape" stroke="#C9CACA"></path>
-                <path d="M957.005,0 L957,261.331679" id="Shape" stroke="#C9CACA"></path>
-                <path d="M1197,0 L1197,348.395886" id="Shape" stroke="#C9CACA"></path>
                 <polyline id="Shape" stroke="#CCCCCC" stroke-linejoin="bevel" points="0 0 717.905629 261.331679 478.603564 261.331679 239.3015 174.232991"></polyline>
-                <polyline id="Shape" stroke="#CCCCCC" stroke-linejoin="bevel" points="1196.60469 435.162896 718 261 957.302065 261 1196.60413 348.098124"></polyline>
+                <polyline id="Shape" stroke="#CCCCCC" stroke-linejoin="bevel" points="1196.60469 435.162896 718 261 957.302065 261 1440 261"></polyline>
                 <rect id="Rectangle-path" stroke="#CCCCCC" stroke-linejoin="bevel" x="479" y="261" width="239.302065" height="239.30263"></rect>
                 <path d="M239.302065,174 L0,174.005" id="Shape" stroke="#CCCCCC" stroke-linejoin="bevel"></path>
-                <path d="M1197,348.005 L1436.30263,348" id="Shape" stroke="#CCCCCC" stroke-linejoin="bevel"></path>
                 <polyline id="Shape" stroke="#CCCCCC" stroke-linejoin="bevel" points="0 174 239.302065 174 239.302065 413.30263 0 413.30263"></polyline>
                 <path d="M957.302065,587.099254 L718,500" id="Shape" stroke="#CCCCCC" stroke-linejoin="bevel"></path>
                 <polyline id="Shape" stroke="#CCCCCC" stroke-linejoin="bevel" points="478.60413 587.163461 0 413 239.303195 413 478.60413 500.064772"></polyline>
