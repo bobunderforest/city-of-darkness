@@ -49,7 +49,7 @@ export const SectionArchitecture = () => {
             image="/img/architecture/scheme-3.svg"
             classNameImage="top-[-55px]"
           >
-            Growing tall was also impossible: the height of buildings was
+            Growing tall was also impossible: the height of&nbsp;buildings was
             limited to 14 floors due to the fact that there was an airport
             nearby, and planes landed directly over Kowloon.
           </ArchitectureSchemaItem>

@@ -47,8 +47,11 @@ export const SectionCredits = () => {
               Design: <Link isExternal>Nikita Gusev</Link>
             </li>
             <li>
-              Frontend: <Link isExternal>Dmitrii Podlesnyi</Link>,{' '}
-              <Link isExternal>Giyos Abbaskhanov</Link>
+              Frontend:{' '}
+              <Link href="https://github.com/bobunderforest/" isExternal>
+                Dmitrii Podlesnyi
+              </Link>
+              , <Link isExternal>Giyos Abbaskhanov</Link>
             </li>
             <li>
               <Link
